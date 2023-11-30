@@ -1,5 +1,5 @@
 
-FROM nginx:latest
+FROM alpine:latest
 
 COPY appBMI.html /usr/share/nginx/html
 
